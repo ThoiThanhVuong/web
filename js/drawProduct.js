@@ -36,12 +36,13 @@ const openShopping = document.querySelector(".shopping"),
   list = document.querySelector(".list"),
   listCard = document.querySelector(".listCard"),
   total = document.querySelector(".total"),
-  quantitys = document.querySelector(".quantity");
-
+  quantitys = document.querySelector(".quantity"),
+  openSearch = document.querySelector(".search"),
+  closeSearch=document.querySelector(".closesearch");
+  
+  
 let product = JSON.parse(localStorage.getItem("product"));
 
-const openSearch = document.querySelector(".search");
-const closeSearch=document.querySelector(".closesearch");
 openSearch.addEventListener("click", () => {
   body.classList.add("opensearch");
 });

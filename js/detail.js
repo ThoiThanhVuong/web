@@ -31,3 +31,6 @@ const btnDetail = key => {
     console.log(arrayHTML)
     document.querySelector(".detail-product").innerHTML = arrayHTML;
 }
+
+    
+      
